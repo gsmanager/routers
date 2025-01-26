@@ -1,0 +1,37 @@
+{
+    "name": "gsmanager/routers",
+    "description": "A powerful, lightweight, and very fast HTTP URL router for PHP projects.",
+    "keywords": [
+        "Route",
+        "Router",
+        "Routing",
+        "URL Router",
+        "HTTP Router",
+        "URL",
+        "HTTP"
+    ],
+    "homepage": "https://github.com/gsmanager/routers",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sergey Tyukhtin",
+            "email": "info@gsmanager.ru",
+            "homepage": "https://gsmanager.ru",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "info@gsmanager.ru",
+        "source": "https://github.com/gsmanager/routers"
+    },
+    "autoload": {
+        "psr-4": {
+            "GSManager\\": "src/GSManager/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.3"
+    }
+}
